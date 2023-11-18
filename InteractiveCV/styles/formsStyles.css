@@ -1,0 +1,43 @@
+
+  
+  /* Center the form on the page */
+  .forms-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height for viewport */
+    background-color: rgb(255, 192, 203); /* Pink shade */
+  }
+  
+  /* Style the signup form */
+  .signup-form {
+    padding: 50px;
+    border-radius: 8px;
+    background-color: white; /* Background color for the form */
+  }
+  .signup-here {
+    text-align: center;
+  }
+  
+  .signup-here a {
+    color: blue; /* Change link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .signup-here a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .logout-btn {
+    /* Your styles for the logout button */
+    /* Example styles: */
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color:none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left: auto;
+}
+.logout-btn:hover {
+    background-color: rgb(182, 102, 210);
+}

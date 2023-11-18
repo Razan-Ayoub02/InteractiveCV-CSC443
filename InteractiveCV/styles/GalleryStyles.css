@@ -1,0 +1,51 @@
+.container{
+  width:90%;
+  padding:20px;
+  margin: 100px auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box{
+  width: 250px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,-1);
+transition:1s;
+}
+.box img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.box:hover{
+transform: scale(1);
+z-index: 2;
+}
+
+#gallery-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+  margin: 0;
+}
+
+.allery-container {
+  flex-grow: 1; /* Allow the container to grow and take up remaining space */
+  /* Other styles for your content */
+}
+
+.gallery-footer {
+  background-image: linear-gradient(to right, rgb(182, 102, 210), rgb(255, 204, 153), rgb(255, 192, 203));
+  text-align: center;
+  width: 100%;
+  padding-block-end: 5px;
+  padding-block-start: 5px;
+}
+
+.gallery-footer h6{
+  display: inline-block;
+}
+.gallery-footer p{
+  display: inline-block;
+}

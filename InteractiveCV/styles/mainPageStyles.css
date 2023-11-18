@@ -1,0 +1,51 @@
+.main-page-styles p{
+padding: 20px;
+background-color: beige;
+margin-top: 50px;
+margin-bottom: 20px;
+margin-right: 80px;
+margin-left: 80px;
+}
+
+
+  .page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  /* Style the card */
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    width: 300px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(255, 192, 203); 
+  }
+  
+  
+  .card-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Add hover effect */
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .contact-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(255, 192, 203); 
+  }

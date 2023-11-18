@@ -1,0 +1,34 @@
+[
+    {
+        "fn": "Razan",
+        "ln": "Ayoub",
+        "sex": "on",
+        "dob": "2023-08-21",
+        "username": "razan.ayoub398@gmail.com",
+        "password": "pass"
+    },
+    {
+        "fn": "hola",
+        "ln": "hola",
+        "sex": "on",
+        "dob": "",
+        "username": "hola@gmail",
+        "password": "pass"
+    },
+    {
+        "fn": "jonhyy",
+        "ln": "jonn",
+        "sex": "on",
+        "dob": "",
+        "username": "jo@gmail",
+        "password": "pass"
+    },
+    {
+        "fn": "hhhh",
+        "ln": "hhhhhh",
+        "sex": "on",
+        "dob": "",
+        "username": "ff@gmail",
+        "password": "pass"
+    }
+]
