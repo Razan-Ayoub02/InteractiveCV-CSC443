@@ -1,7 +1,5 @@
 <?php 
-    echo "I am in main 1"; 
 	session_start();
-    echo "I am in main 2"; 
 	
     if (!isset($_SESSION["fn"])){
         header("location:../index.php");

@@ -30,12 +30,8 @@
         var username=document.getElementById("username").value;
         var pass=document.getElementById("pass").value;
         if ((username=="")||(pass=="")){
-            console.log("in the condition")
           alert("Please enter all fields.")            
         }else{
-            console.log(username);
-            console.log(pass);
-            
             document.getElementById("login-form").submit();
         }
 

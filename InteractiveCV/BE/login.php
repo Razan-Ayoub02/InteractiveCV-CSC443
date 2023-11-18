@@ -1,6 +1,5 @@
 <?php
 session_start();
-echo"heyy";
 $fn = "";
 $username = $_POST["username"];
 $password = $_POST["pass"];
@@ -24,7 +23,6 @@ if ($loggedIn) {
     $_SESSION["fn"] = $fn;
     header("Location: ../pages/mainPage.php");
 } else {
-    echo "WRONGGGGGGGGG";
     header("Location: ../index.php");
 }
 ?>
